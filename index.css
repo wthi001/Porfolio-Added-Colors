@@ -1,0 +1,187 @@
+body {
+    background-color:rgb(205, 245, 255);
+  }
+  nav {
+    padding-top: 1%;
+    background-color:black;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+    
+  }
+  
+  .name {
+   color:white;
+  
+  }
+  
+  .menuItems {
+    display:none;
+  }
+  
+  .burger {
+    text-align:right;
+    color:white;
+    
+  }
+  
+  header {
+    text-align:center;
+    padding:3%;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    color:#09375c;
+    border:grey 1px dotted;
+  } 
+  
+  .profilePic {
+    text-align:center;
+    border:grey 1px dotted;
+    width:20%;
+    height:120px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .bio {
+    text-align:center;
+    border:grey 1px dotted;
+    width:70%;
+    padding:3%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'open sans',san-serif;
+    font-family:'lora', serif;
+    color:#09375c;
+  }
+  
+  .projectInfo {
+    text-align:center;
+    border:grey 1px dotted;
+    width:60%;
+    padding:1%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'open sans',san-serif;
+    font-family:'lora', serif;
+    color:rgb(90, 90, 90);
+  }
+  
+  .screenshot {
+    text-align:center;
+    border:grey 1px dotted;
+    width:65%;
+    padding:12%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .contactInfo {
+    border:rgb(95, 94, 94) 1px dotted;
+    padding:0;
+    color:#09375c;
+  }
+  .contactInfo a{
+    color:#0000EE;
+    font-size:14px;
+  
+  }
+  
+  @media screen and (min-width:768px) {
+   
+   .name {
+     font-size:20px;
+   }
+   
+   .menuItems {
+     display:flex;
+    }
+  
+    .menuItems a{
+     margin-left:10px;
+     color:#0000EE;
+    }
+    
+    .burger {
+      display:none;
+    }
+  
+    header {
+      width:75%;
+      padding:4%;
+      font-size:18px;
+    }
+    .profilePic {
+      width:21%;
+      height:150px;
+    }
+   .bio {
+    width:75%;
+    padding:4%;
+    font-size:20px;
+   }
+    .projectInfo{
+     width:70%;
+     padding: 2%;
+     font-size:17px; 
+    }
+  
+    .screenShot {
+     width:75%;
+     padding:14%;
+    }
+    .contactInfo a {
+     font-size:16px;
+    }
+  }
+  
+  @media screen and (min-width:1024px) {
+   
+   .name {
+     font-size:22px;
+   }
+   
+   .menuItems {
+     display:flex;
+     font-size:18px;
+     
+    }
+  
+    .menuItems a{
+     margin-left:12px;
+    }
+    
+    .burger {
+      display:none;
+    }
+  
+    header {
+      width:80%;
+      padding:5%;
+      font-size:20px;
+    }
+    .profilePic {
+      width:22%;
+      height:170px;
+    }
+   .bio {
+    width:80%;
+    padding:5%;
+    font-size:22px;
+   }
+    .projectInfo{
+     width:75%;
+     padding: 3%;
+     font-size:19px; 
+    }
+  
+    .screenShot {
+     width:80%;
+     padding:15%;
+    }
+    .contactInfo a {
+     font-size:18px;
+    }
+  }
